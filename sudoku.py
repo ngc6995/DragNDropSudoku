@@ -180,6 +180,8 @@ def solve(grid: np.ndarray):
                 return True
             # Backtrack
             grid[row, col] = 0
+    # No solution
+    return False
 
 # Get the filled in numbers
 def get_solution(puzzle_unsolved: np.ndarray, puzzle_solved: np.ndarray) -> list[tuple[int,int,int]]:
