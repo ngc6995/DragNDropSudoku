@@ -25,6 +25,9 @@ A simple backtracking algorithm picks the cell with the fewest possible values t
 
 ![Screen Shot](screen_shot.png)
 
+## An Online Version
+https://huggingface.co/spaces/mycn18/Sudoku-Solver
+
 ## Modules Used
 
 `torch`, `torchvision`, `cv2`, `tkinterdnd2`, `matplotlib`, `PIL`, `numpy`
